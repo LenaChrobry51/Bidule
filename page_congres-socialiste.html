@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Le congrès socialiste de Marseille de 1879</title>
+    <link rel="icon" href="img/drapeau-rouge.png">
+    <meta name="description" content="Le congrès socialiste de Marseille de 1879 ">
+    <meta name="author" content="Léna Clément">
+    <meta name="keywords" content="Histoire, XIXe Siècle, Socialisme, Histoire Sociale">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: grid;
+            grid-auto-columns: 1fr;
+            grid-template-columns: 0.6fr 2.4fr;
+            grid-template-rows: 1fr;
+            gap: 0px 0px;
+            grid-template-areas:
+                ". .";
+        }
+
+        :visited {
+            color: rgb(169, 169, 169);
+        }
+
+
+        h1 {
+            text-indent: 0%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: xx-large;
+            text-align: center;
+            line-height: 140%;
+        }
+
+        h2 {
+            text-indent: 0%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(12, 75, 38);
+            text-align: center;
+        }
+
+        h3 {
+            text-indent: 5%;
+            color: rgb(120, 14, 31);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+            text-align: center;
+        }
+
+        h4 {
+            text-indent: 5%;
+            color: rgb(255, 255, 255);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: x-large;
+            text-align: right;
+        }
+
+        p {
+            color: rgb(33, 34, 40);
+        }
+
+        .siecle {
+            font-variant: small-caps;
+        }
+
+        .siecle::after {
+            content: 'e';
+            font-variant-position: super;
+        }
+
+        .titre {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            color: rgb(120, 14, 31);
+        }
+
+        .one {
+            padding-left: 2px;
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        .two {
+            padding-left: 5px;
+            grid-column: 1;
+            grid-row: 1;
+            background-color: #20403b;
+        }
+
+        .three {
+            grid-column: 3;
+            grid-row: 1;
+        }
+
+        .contexte {
+            color: rgba(255, 251, 234, 0.94);
+        }
+
+        .discours {
+            text-align: center;
+        }
+
+        .article {
+            background-color: rgb(246, 240, 233);
+            border: thick double #65191999;
+            text-indent: 20%;
+            column-gap: 40px;
+            text-align: justify;
+            padding-left: 8%;
+            padding-right: 8%;
+            line-height: 150%;
+            border-radius: 40px;
+        }
+
+
+        .biblio {
+            background-color: darkslategray;
+            border-color: ghostwhite;
+            columns: unset;
+            text-align: right;
+            padding-right: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(255, 255, 255);
+            border-radius: 20px;
+        }
+
+        .nom-autrice {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: x-large;
+
+        }
+
+        .description-supp {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: small;
+            color: darkslategrey;
+        }
+
+        .bouton {
+            box-shadow: 6px 6px 1px 1px rgba(67, 7, 37, 0.2);
+            background-color: rgb(61, 9, 33);
+            border-radius: 8px;
+            text-align: center;
+            font-size: small;
+
+        }
+        .image-fond{
+        background-image: url(img/greve-fond.jpg);
+        background-size: cover;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: -100;
+            position: fixed;
+            background-color: transparent;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+<div class="image-fond"></div>
+    <div class="one">
+        <div style="background-color: rgb(246, 240, 233);">
+            <header>
+                <div class="titre">
+                    <h1>Le congrès socialiste de Marseille de 1879</h1><br>
+                    <span class="nom-autrice">Quelques éléments historiques</span>
+                </div><br>
+                <hr>
+                <ul>
+                    <li>"Le congrès de la scission" <a
+                            href="https://www.lemonde.fr/archives/article/1979/12/10/le-congres-de-la-scission_2773370_1819218.html">Article
+                            du Monde disponible en ligne</a></li>
+                    <li>Biographie de Jules Guesde</li>
+                </ul>
+
+
+            </header>
+            <hr>
+        </div>
+        <div style="text-align: center;">
+            <figure>
+                <img src="img/congres-socialiste-gallica.jpg" alt="" width="250" height="341"
+                    title="Congrès socialiste 1873 Gallica">
+                <figcaption></figcaption>
+            </figure>
+        </div>
+        <div class="article">
+
+            <h2>Le congrès de la scission ?<br>
+                Par Michèle Perrot</h2>
+            <div class="description-supp">Historienne et Professeure émérite de l'université Paris-Diderot
+            </div>
+
+            Le 20 octobre 1979, à 7 h. 30 du soir, s'ouvrait à Marseille le congrès ouvrier socialiste de France.
+            Troisième session. " Troisième session ", pour montrer la continuité avec les deux précédents congrès de
+            Paris (1876) et Lyon (1878) où s'est affirmée la renaissance vigoureuse d'un mouvement ouvrier plein de sève
+            que la Commune n'a pas tarie ; " Socialiste " pour signifier la nécessité d'une orientation nouvelle.
+
+            La conjoncture s'y prête. Après huit ans d'incertitudes et de tentatives de restauration monarchique, la
+            République enfin est installée, même si elle hésite sur le choix de ses symboles. Jules Grévy la préside
+            depuis janvier, en attendant que Ferry la gouverne. Mais cette République opportuniste n'est pas encore
+            démocratique ; les libertés y sont limitées, notamment en matière d'association. En de nombreuses régions,
+            surtout dans le secteur minier, les industriels ont puni le vote républicain de leurs ouvriers aux élections
+            de 1877 par des mesures de rétorsion qui ont provoqué des grèves parfois violentes. Les condamnés de la
+            Commune sont toujours en exil ou déportés. En 1878, le gouvernement a interdit le congrès international
+            socialiste de Paris qui, profitant des confluences que favorisent les expositions universelles, entendait
+            renouer les fils de l'Internationale dissoute, horrible spectre.
+
+            <h3>Radicalisation</h3>
+
+            Au cours d'un procès retentissant, Jules Guesde, rentré de Suisse depuis 1876, et ses amis de L'Égalité ont
+            proclamé leur volonté de fonder la République des travailleurs. Leur appel a été signé par un assez grand
+            nombre d'individus et de groupes, premiers maillons d'un réseau collectiviste très offensif, dont fait
+            partie Jean Lombard, ouvrier bijoutier, l'actif secrétaire de la commission d'organisation. Cette affaire a
+            produit une certaine radicalisation, visible dans l'ordre du jour du congrès de Marseille qui, pour la
+            première fois, pose la question de l'" appropriation individuelle ou collective du sol et des instruments de
+            travail " et dit l'urgence d'une rupture politique : " Le quatrième État doit s'affranchir et remplacer le
+            tiers État si puissant aujourd'hui. "
+            <div>
+                <h2>Jules Guesde</h2>
+                <div style="columns: 2">
+
+                    <p>Jules Guesde, pseudonyme de Jules Bazile, né le 11 novembre 1845 à Paris et mort le 28 juillet
+                        1922
+                        à
+                        Saint-Mandé, est un homme politique socialiste français.</p>
+
+                    <p>Il collabore très tôt à des journaux républicains, se signalant par son audace contre le régime
+                        impérial, choisissant alors comme pseudonyme — Jules Guesde — le patronyme de sa mère, Eléonor
+                        Guesde.
+                        Ces années sont celles d’une formation politique de plus en plus marquée à gauche. À un
+                        journaliste
+                        du Matin venu l'interviewer sur son itinéraire politique en 1893, il répond qu'il est devenu
+                        républicain sous l'Empire en lisant en cachette les Châtiments de Victor Hugo, athée en lisant
+                        la
+                        Critique de la raison pure de Kant et enfin socialiste « par la Commune ».
+                        De fait, c'est de Toulouse puis Montpellier, et non à Paris, que le jeune Guesde critique
+                        l’entrée
+                        en guerre de la France en 1870. Il défend l’opinion républicaine dans Le Progrès libéral de
+                        Toulouse
+                        en 1868, puis, l’année suivante, jusqu’en 1871, dans La Liberté et L'Hérault de Montpellier puis
+                        dans Les Droits de l’Homme où il est alors secrétaire de rédaction. Il y rencontre d'ailleurs le
+                        jeune Paul Brousse.
+                        Après le 4 septembre, il soutient la nouvelle République. Guesde est favorable à l'idée de
+                        souveraineté nationale contre tout retour à la monarchie, pour davantage de libertés publiques
+                        et la
+                        séparation de l'Église et de l'État. Il n'aborde que peu les sujets économiques. Néanmoins,
+                        certains
+                        de ses textes sont marqués d'une inspiration proudhonienne ou encore influencés par
+                        l'Organisation
+                        du travail de Louis Blanc. Son engagement dépasse le cadre des journaux. À Montpellier, le 5
+                        septembre, il prend la tête d'une manifestation en soutien à la république.
+                        À partir de mars 1871, Guesde soutient la Commune de Paris contre l'Assemblée nationale
+                        conservatrice de Versailles. Ses articles virulents lui valent diverses condamnations à
+                        l’emprisonnement qui le poussent, pour y échapper, à l'exil au mois de juin.
+                        Réfugié en Suisse, dans la ville de Genève, il fréquente les cercles des exilés parisiens ainsi
+                        que
+                        la Section de Propagande et d'Action Révolutionnaire Socialiste, où il se lie d'amitié avec des
+                        anarchistes locaux proches de la Fédération jurassienne. Il y découvre également les réseaux de
+                        l'Association internationale des travailleurs (AIT).
+                        En 1872, il part pour Rome où il participe à la création d'une nouvelle section de l'AIT, puis
+                        pour
+                        Milan, en 1873. Il rencontre dans cette ville sa future épouse, Mathilde Constantini. Il survit
+                        en
+                        donnant des leçons de littérature.
+                        Au sein du réseau des internationalistes, Guesde se familiarise avec l'économie politique. Il y
+                        prend parti pour <a href="https://fr.wikipedia.org/wiki/Mikha%C3%AFl_Bakounine">Bakounine</a>
+                        dans sa critique qui l'oppose à <a href="https://fr.wikipedia.org/wiki/Karl_Marx">Karl Marx</a>
+                        et son « autoritarisme »
+                        qualifié alors de « prussien ».
+                        Il lit divers ouvrages sur les Lumières et les premiers communistes. Trois ouvrages semblent
+                        particulièrement l'avoir marqué durant cette période d'exil italien. Du moins, ses archives
+                        peuvent
+                        le laisser à penser. Le Que faire ? du penseur russe Nikolaï Tchernychevski, L'Origine des
+                        espèces
+                        de Charles Darwin ou encore les écrits de Théodore Dézamy ont occupé une bonne partie de son
+                        temps.
+                        Durant ces années, Guesde tient également un carnet de poésies et commence à produire des écrits
+                        de
+                        réflexion sur la politique.
+                    <p>En 1876, avec son épouse, ils quittent la ville de Milan pour Bruxelles, où il rencontre le
+                        socialiste belge César De Paepe. Son passage par la capitale belge le confronte concrètement
+                        pour la
+                        première fois au prolétariat industriel. Cela l'amène progressivement de l'anarchisme vers le
+                        socialisme.
+                        Mais la véritable rupture s'opère après son retour à Paris durant cette même année 1876, autour
+                        du
+                        Café Soufflet, à proximité du Panthéon. Alors haut lien de la sociabilité des socialistes
+                        parisiens,
+                        Guesde y fréquente Carl Hirsch, José Mesa, Gabriel Deville puis Benoît Malon, qu'il a déjà
+                        rencontré
+                        en Suisse. Guesde s'y familiarise avec certaines des théories de Karl Marx. Les deux hommes ne
+                        correspondront qu'après la fondation de L'Égalité en 1879. Alors que Guesde commence à
+                        s'affirmer
+                        comme un socialiste influent, il rédige en 1877 en italien Une lettre ouverte au sénateur
+                        Lampertico. Dans cette dernière, il s'attaque à l'approche du christianisme social du problème
+                        social. Sa première publication d'un essai en langue française intervient en 1878. Son Essai de
+                        catéchisme socialiste est loin d'être une publication marxiste4. Guesde y présente un système
+                        d'éducation libertaire, sa méfiance vis-à-vis de l'État et il fait appel à l'imagination et au
+                        rêve
+                        pour penser la société de demain. Cette utopie arrimée à une rigueur démonstrative le fait
+                        connaître
+                        dans les courants socialistes. La traduction par l'éditeur Maurice Lachâtre en 1875 du livre I
+                        du
+                        Capital de Karl Marx accélère sa transformation intellectuelle.</p>
+
+                    <p>De retour en France en 1876, Guesde vise deux objectifs. D'abord reconstituer le mouvement
+                        ouvrier
+                        décapité par la répression de la Commune de Paris, et convaincre ensuite l’élite de la classe
+                        ouvrière française du bien-fondé des doctrines du socialisme scientifique issues de la pensée
+                        marxiste.
+
+                        À cette fin, il lance avec Paul Lafargue le journal L'Égalité qui parait avec quelques
+                        interruptions de 1877 à 1883 et qui diffuse en France des idées se voulant
+                        républicaines-socialistes, comme l'indique son premier sous titre, avant d'affirmer son unique
+                        affiliation au socialisme. Les idées diffusées dans ses numéros commencent à être marquées par
+                        le
+                        marxisme mais à l'évidence traversées par diverses influences françaises, de Blanqui à Rousseau.
+                        Rapidement le journal prend ses distances avec le courant républicain dont le journal prétend
+                        démontrer l'hypocrisie envers le monde ouvrier. En janvier 1880, lors de la reprise de la
+                        publication, le sous titre indique cette évolution. L'Égalité est désormais l'« organe
+                        collectiviste
+                        révolutionnaire ». Guesde fait également publier en septembre 1878 La Loi des salaires en ses
+                        conséquences. Ce texte diffuse dans une certaine mesure la thèse du socialiste allemand
+                        Ferdinand
+                        Lassalle, d'après qui il existe une « loi d'airain ». C'est-à-dire « le salaire moyen ne saurait
+                        normalement dépasser le tantum de subsistance nécessaire [...] pour que l'ouvrier puisse vivre
+                        et se
+                        reproduire ».
+
+                        Cette agitation l'emmène devant Xe chambre correctionnelle qui le jugea, ainsi que Gabriel
+                        Deville,
+                        Marie Manière et Marie Bonnevial, pour association non autorisée dans l'organisation d'un
+                        congrès
+                        ouvrier international prévu le 5 septembre 1878 à Paris6. De cet épisode, Guesde fait publier
+                        une
+                        brochure accusant la société bourgeoise, Le Collectivisme devant la 10e Chambre. Il est envoyé à
+                        la
+                        prison parisienne de Sainte-Pélagie, dans laquelle sont passés de prestigieux révolutionnaires
+                        avant
+                        lui (Blanqui, Raspail, Vallès, etc.). Durant son séjour en prison ou juste après, il commence la
+                        rédaction de ce qui deviendra l'une des premières publications synthétisant le collectivisme
+                        français : Le collectivisme par la révolution.
+
+                        Durant cette période, le socialisme français tente de se structurer, à l'image des socialistes
+                        allemands, avant l'action de Bismarck et les lois anti socialistes. Le groupe « collectiviste »
+                        dirigé par Guesde réussit à obtenir la majorité au congrès ouvrier de Marseille de 1879, même si
+                        ce
+                        dernier réunit une diversité de nuances. Sont présents des républicains radicaux, des
+                        mutuellistes,
+                        des anarchistes et des socialistes de diverses obédiences. Guesde malade ne peut être présent.
+                        Il se
+                        fait replacer par Jean Lombard et Eugène Fournière.
+
+                        Le parti crée, il faut maintenant lui donner un programme. Guesde part alors pour Londres, où il
+                        rencontre Karl Marx pour la première fois. Celui-ci ou Benoît Malon participe, peut-être, à sa
+                        rédaction. Marx en rédige néanmoins les « Considérants ». Ce programme est contresigné par les
+                        rédactions de L'Égalité, de la Revue socialiste et par trois rédacteurs du Prolétaire, auxquels
+                        se
+                        joignent plusieurs groupes, cercles et syndicats. Leur répartition révèle que la carte
+                        géographique
+                        du collectivisme s'inscrit dans le quart Sud-Est, avec comme centres Marseille, Lyon,
+                        Saint-Étienne,
+                        Vienne et Grenoble ; la région parisienne est timidement présente, ainsi que les centres
+                        industriels
+                        de Montluçon et du Creusot. Parallèlement, une bataille idéologique s'engage avec les
+                        anarchistes et
+                        les coopérateurs au sein des diverses fédérations. Le congrès du Havre de novembre 1880 apporte
+                        des
+                        clarifications. La scission avec les coopérateurs est consommée, le programme collectiviste est
+                        adopté mais des concessions ont été faites aux libertaires. Le Congrès proclame qu'au cas où les
+                        élections municipales et législatives de 1881 se solderaient par un échec, ce serait la dernière
+                        expérience électorale du parti ouvrier qui se bornerait, dès lors, à l'action révolutionnaire.
+                        Paul
+                        Brousse et Benoît Malon introduisent également deux amendements en lien avec le socialisme
+                        municipal7.
+
+                        La fondation en 1882 du Parti Ouvrier. Le PO est ensuite dénommé Parti ouvrier français en 1893.
+                        Le
+                        POF reste jusqu'au bout dans la vision internationaliste. Dans les années 1880, Jules Guesde est
+                        l'une des rares voix en France à s'élever contre le colonialisme. Il dénonce par exemple, lors
+                        de la
+                        conquête de la Tunisie, « la responsabilité du sang versé en Afrique et des infamies commises,
+                        [qui]
+                        retombe sur la tête de la bourgeoisie » (décembre 1881)8.
+
+                        Très vite, apparaissent des divergences entre les dirigeants concernant les conditions de la
+                        prise
+                        du pouvoir et les relations du parti avec la jeune République. Pour les « possibilistes » menés
+                        par
+                        Brousse et Allemane, il convient de faire, au plus tôt, les « réformes possibles » plutôt que
+                        d'attendre une révolution dont la réalisation, liée à une hypothétique grève générale, apparaît
+                        alors moins que probable[réf. souhaitée].
+
+                        À cette époque, Guesde incarne la ligne dure du militantisme ouvrier, opposée à tout compromis
+                        avec
+                        les « forces bourgeoises »[réf. souhaitée]. Tout au long de cette genèse de la gauche française,
+                        il
+                        incarne un archétype[réf. souhaitée], celui du militant pauvre, incorruptible, qui voyage sans
+                        répit
+                        pour faire connaître dans toute la France le socialisme révolutionnaire. Mais son marxisme n'est
+                        pas
+                        sans critique, Friedrich Engels lui même alors gardien de l'orthodoxie, depuis la mort de Marx
+                        en
+                        1883, considère que « ce que l'on appelle marxisme en France est certes un article tout spécial
+                        »,
+                        au point que Marx dit, notamment à propos de la pensée de Paul Lafargue et de Jules Guesde qui
+                        se
+                        disent marxistes : « Ce qu'il y a de certain, c'est que moi je ne suis pas marxiste »9.
+
+                    <p>Outre son activité politique inlassable, Guesde,publie beaucoup de livres, brochures, articles
+                        et
+                        anime au premier rang, en dépit de sa santé incertaine, les nombreux meetings socialistes et se
+                        révèle bon organisateur. Il incarne les premiers professionnels de la politique définis par
+                        Michel
+                        Offerlé. Guesde et les cadres du parti structurent rigoureusement le parti selon une logique
+                        pyramidale, chaque niveau étant animé par des militants, souvent d’origine ouvrière, totalement
+                        dévoués, sinon soumis, à la « discipline guesdiste », qui, par sa rigidité, étonne partisans et
+                        adversaires[réf. souhaitée]. Par ailleurs, le Parti ouvrier est internationaliste, ses liens
+                        sont
+                        étroits avec les partis étrangers, notamment la social-démocratie allemande qui est à l'époque
+                        le
+                        principal parti socialiste dans le monde. Guesde via Paul Lafargue, maitrisant la langue
+                        allemande,
+                        maintient un lien permanent avec l'Allemagne. Les liens se consolident mais le transfert est
+                        très
+                        largement unilatéral. Il s'agit pour les Français de prendre le modèle sur « l'avant-garde du
+                        socialisme ». De plus, être en contact avec Hermmann Grimpe, Clara Zetkin, Edouard Bernstein,
+                        Wilhelm Liebknecht permet à Guesde de maintenir son prestige tant en France qu'à
+                        l'international.
+                        Ces contacts participent de la réunion à Paris en 1889 des socialistes internationalistes,
+                        donnant
+                        naissance à la <a href="https://fr.wikipedia.org/wiki/Internationale_ouvri%C3%A8re">Seconde
+                            Internationale</a>.</p>
+
+                    <p>Les succès du Parti Ouvrier sont rapides. Le premier à la chambre des députés du mouvement est
+                        Emile
+                        Basly. Celui-ci est élu dans la Seine en 1885. En 1888, lors des élections municipales,
+                        plusieurs
+                        municipalités ont à leur tête un maire affilié au parti. Comptant à peine 2 000 membres en 1889,
+                        il
+                        gagne en audience — 20 000 militants en 1902 — et conquiert ensuite plusieurs grandes
+                        municipalités,
+                        notamment Roubaix qui reste le sanctuaire du guesdisme — la « Rome du Socialisme » — jusqu’en
+                        1914[réf. souhaitée]10. Le PO atteint son plus haut électoral aux législatives de 1893. </p>
+                </div>
+            </div>
+        </div>
+        <div class="biblio">
+            <h4>Pour aller plus loin...</h4>
+
+            <ul>
+                <li>Xavier Vigna, <i>Histoire des ouvriers en France au <span class="siecle">xx</span> siècle</i>,
+                    Paris, Perrin, « Pour l'histoire », 2012.</li>
+                <li>Nicolas Delalande, <i>La lutte et l'entraide. L'âge des solidarités ouvrières</i>, Paris, Seuil,
+                    2019.</li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="two">
+        <div class="contexte">
+            <div class="bouton"><a href=index.html>Égalité sociale et politique <br> de la femme et de l'homme <br>
+                    <br> Hubertine Auclert</a></div> <br>
+            <div class="bouton"><a href=page_condition-femmes.html>La condition des femmes en France <br> au <span
+                        class="siecle">xix</span>
+                    siècle</a></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
